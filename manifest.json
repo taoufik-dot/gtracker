@@ -1,0 +1,29 @@
+{
+  "name": "Growth Tracker",
+  "short_name": "Growth",
+  "description": "A full year of goals, one honest day at a time. Track habits, numbers and milestones month by month.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "theme_color": "#021645",
+  "background_color": "#021645",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["productivity", "lifestyle", "health"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Today", "short_name": "Today", "url": "./index.html?view=today" },
+    { "name": "Quick check-in", "short_name": "Check in", "url": "./index.html?quick=1" },
+    { "name": "Calendar", "short_name": "Calendar", "url": "./index.html?view=planner" },
+    { "name": "Curves", "short_name": "Curves", "url": "./index.html?view=insights" },
+    { "name": "Portrait", "short_name": "Portrait", "url": "./index.html?view=portrait" }
+  ]
+}
